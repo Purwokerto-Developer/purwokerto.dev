@@ -2,6 +2,7 @@ import CommunityPartner from "@/components/sections/community-partner";
 import Hero from "@/components/sections/hero";
 import NewArticles from "@/components/sections/new-articles";
 import NewMembers from "@/components/sections/new-members";
+import Partnership from "@/components/sections/partnership";
 import UpcomingEvents from "@/components/sections/upcoming-events";
 
 export default async function Home() {
@@ -12,6 +13,7 @@ export default async function Home() {
       <NewArticles />
       <NewMembers />
       <CommunityPartner />
+      <Partnership />
     </>
   );
 }
