@@ -10,7 +10,7 @@ const CommunityPartner = () => {
       title="Community Partners"
       description="Komunitas yang saling terhubung">
       <div className="flex gap-4 mt-5 justify-center">
-        <Link href={"https://www.instagram.com/tegal.dev/"}>
+        <Link href={"https://www.instagram.com/tegal.dev/"} target="_blank">
           <Image
             loading="lazy"
             alt="Tegal Dev"
@@ -20,7 +20,7 @@ const CommunityPartner = () => {
             height={500}
           />
         </Link>
-        <Link href={"https://www.instagram.com/meetap_dev/"}>
+        <Link href={"https://www.instagram.com/meetap_dev/"} target="_blank">
           <Image
             loading="lazy"
             alt="Meetap"
@@ -30,7 +30,7 @@ const CommunityPartner = () => {
             height={500}
           />
         </Link>
-        <Link href="/">
+        <Link href="https://wpu.run" target="_blank">
           <Image
             loading="lazy"
             src={"/wpu-white.png"}
