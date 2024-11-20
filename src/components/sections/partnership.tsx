@@ -10,11 +10,11 @@ const Partnership = () => {
       title="Partnership"
       description="Kami bekerja sama untuk satu tujuan">
       <div className="flex gap-4 mt-5 justify-center">
-        <Link href="/">
+        <Link href="https://bappedalitbang.banyumaskab.go.id/" target="_blank">
           <Image
             loading="lazy"
             src={"/banyumas2045 6.png"}
-            alt="WPU"
+            alt="Bappeda Litbang Banyumas"
             width={500}
             height={500}
             className="h-32 w-auto hidden dark:block"
@@ -22,7 +22,7 @@ const Partnership = () => {
           <Image
             loading="lazy"
             src={"/banyumas2045 2.png"}
-            alt="WPU"
+            alt="Bappeda Litbang Banyumas"
             width={500}
             height={500}
             className="h-32 w-auto block dark:hidden"
