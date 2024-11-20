@@ -1,9 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import RichEditor from "../sections/rich-editor";
 import Button from "../fragments/button";
 import { Input } from "../fragments/input";
+import dynamic from "next/dynamic";
+
+const RichEditor = dynamic(() => import("../sections/rich-editor"), {
+  ssr: false,
+});
 
 const FormCreateArticle = () => {
   const [value, setValue] = useState<string>("");

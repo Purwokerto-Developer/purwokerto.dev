@@ -41,16 +41,14 @@ const RichEditor = ({ value, setValue, className }: RichEditorProps) => {
   ];
 
   return (
-    <>
-      <ReactQuill
-        className={cn("bg-white text-slate-500 h-[300px]", className)}
-        modules={modules}
-        formats={formats}
-        theme="snow"
-        value={value}
-        onChange={setValue}
-      />
-    </>
+    <ReactQuill
+      className={cn("bg-white text-slate-500", className)}
+      modules={modules}
+      formats={formats}
+      theme="snow"
+      value={value}
+      onChange={setValue}
+    />
   );
 };
 
