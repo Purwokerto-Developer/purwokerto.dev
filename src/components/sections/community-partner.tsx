@@ -30,7 +30,7 @@ const CommunityPartner = () => {
             height={500}
           />
         </Link>
-        <Link href="https://wpu.run" target="_blank">
+        <Link href="https://www.youtube.com/@sandhikagalihWPU" target="_blank">
           <Image
             loading="lazy"
             src={"/wpu-white.png"}
